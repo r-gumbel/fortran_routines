@@ -75,10 +75,6 @@ real(wp), intent(inout) :: F(nr)
 
   Y(i) = F(i) + (2.0_wp * ((2.0_wp * j) + 1.0_wp)) / (4.0_wp * pi * r(i)*r(i))
 
-
-
-
-
 end subroutine harmonic
 
 FUNCTION Fact(n)
